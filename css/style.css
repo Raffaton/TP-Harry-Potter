@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bigelow+Rules&family=Oswald:wght@200..700&family=Xanh+Mono:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@200..700&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Bigelow Rules", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+header #top {
+    background-color: #242633;
+    display: flex;
+    justify-content: center;
+}
+
+header #top img {
+    width: 15%;
+    margin: 10px;
+}
+
+header #menu {
+    background-color: #10141B;
+}
+
+header #menu nav ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+header #menu nav ul li {
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 2em;
+    margin: 2px;
+}
+
+header #menu nav ul li:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 5%, rgba(255, 255, 255, 1)), url('../images/background.webp') no-repeat center/cover;
+    font-family: "Sofia Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5em;
+}
+
+main #left {
+    width: 30%;
+    background: linear-gradient(180deg, #433C87 0%, rgba(67, 60, 135, 0) 100%);
+    opacity: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+main #left img {
+    width: 80%;
+    margin: 15%;
+}
+
+main #left .text_left {
+    margin: 10%;
+}
+
+main #left #button_rejoindre {
+    background-color: #433C87;
+    padding: 6%;
+    border-radius: 30px;
+    font-weight: 800;
+    margin-bottom: 25%;
+    cursor: pointer;
+}
+
+main #left #button_rejoindre:hover {
+    background-color: #8B81EC;
+    transform: scale(1.2);
+}
+
+main #right {
+    width: 40%;
+    height: 700px;
+    background-image: url('../images/losange.webp');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+main #right img {
+    width: 30%;
+    margin-top: 25%;
+}
+
+main #right p {
+    width: 40%;
+    margin-top: 0;
+}
+
+footer {
+    background-color: #10141B;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Sofia Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+footer #bordure_rs {
+    border: 1px solid #fff;
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+}
+
+footer #bordure_rs p {
+    font-size: 1.2em;
+    margin-bottom: 2.5%;
+}
+
+footer #bordure_rs #rs {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+footer #bordure_rs #rs i {
+    font-size: 1.5em;
+    color: white;
+}
+
+footer #bordure_rs #rs i:hover {
+    color: #8B81EC;
+}

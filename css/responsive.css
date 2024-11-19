@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bigelow+Rules&family=Oswald:wght@200..700&family=Sofia+Sans:wght@200..700&display=swap');
+
+@media all and (max-width: 768px) {
+    header #top img {
+        width: 40%;
+    }
+    header #menu nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    header #menu nav ul li {
+        width: 45%;
+        text-align: center;
+        font-size: 1.5em;
+        margin: 5px 0;
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    main #left {
+        width: 60%;
+        margin-bottom: 10px;
+        margin-top: 0;
+    }
+
+    main #left img {
+        width: 70%;
+        margin: 10% auto;
+    }
+
+    main #left .text_left {
+        font-size: 1em;
+        margin: 5%;
+    }
+
+    main #left #button_rejoindre {
+        padding: 30px 40px;
+        font-size: 1em;
+    }
+
+    main #right {   
+        width: 60%;
+        margin: 10px 0;
+        height: 500px;
+    }
+
+    main #right img {
+        width: 40%;
+        margin-top: 18%;
+    }
+
+    main #right p {
+        width: 50%;
+        font-size: 1em;
+    }
+
+    footer #bordure_rs {
+        width: 95%;
+        padding: 10px;
+    }
+
+    footer #bordure_rs p {
+        font-size: 1em;
+    }
+
+    footer #bordure_rs #rs i {
+        font-size: 1.2em;
+        margin: 0 10px;
+    }
+}
+
+@media all and (max-width: 390px) {
+    header #menu nav ul {
+        flex-direction: column; 
+        align-items: center;   
+    }
+
+    header #menu nav ul li {
+        margin: 10px 0; 
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    main #left {
+        width: 100%;
+        text-align: center; 
+    }
+
+    main #right {
+        width: 100%; 
+        height: 525px;
+        text-align: center;
+    }
+
+    main #right img {
+        margin-top: 30%;
+    }
+
+    main #right p {
+        margin-top: 35%;
+        color: black;
+    }
+
+    footer #bordure_rs {
+        margin: 10px;
+    }
+
+    footer #bordure_rs #rs {
+        display: grid; 
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 10px;
+        justify-content: center; 
+        align-items: center;
+    }
+}
